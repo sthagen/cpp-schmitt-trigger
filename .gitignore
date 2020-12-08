@@ -33,3 +33,5 @@
 
 # local dev artifacts
 .idea
+cmake-build-*
+
