@@ -17,10 +17,9 @@ TEST_CASE("Cycling the inverted trigger (once)", "[positive]") {
     auto cycles = 1;
     do {
         INFO("Rising ...");
-        bool expected_state = true;
+        bool expected_state = false;
         for (; m < high + step ; m += step) {
             CHECK(st(m) == expected_state);
-            expected_state = false;
         }
         CHECK(st(m) == expected_state);
         INFO("Sinking ...");
