@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(SCHMITT_TRIGGER VERSION 2020.12)
+project(schmitt_trigger VERSION 2020.12 LANGUAGES C CXX)
 
 option(SCHMITT_TRIGGER_BUILD_EXAMPLES "whether or not to build the examples" ON)
 option(SCHMITT_TRIGGER_BUILD_TESTS "whether or not to build the tests" ON)
